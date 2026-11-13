@@ -13,7 +13,7 @@ Live at **https://devon4899.github.io/**. Static HTML, CSS, and JavaScript hoste
 
 FRPG / Liftling and Tap Track images were captured from their current working iOS builds on November 12, 2026, in an iPhone simulator. All profile, workout, and nutrition values in these captures are synthetic demonstration data. Last Tide images are actual Roblox Studio captures of the local project, not concept art. Project pages identify release status and the distinction between public showcases and separately maintained development source.
 
-The earlier Hirenao screenshots and résumé remain unchanged. Original FRPG WebP images are retained for existing inbound image links; current pages use the new PNG captures.
+The earlier Hirenao screenshots remain unchanged. Personal résumé download links and the hosted PDF have been removed from the site. Original FRPG WebP images are retained for existing inbound image links; current pages use the new PNG captures.
 
 ## Local preview
 
