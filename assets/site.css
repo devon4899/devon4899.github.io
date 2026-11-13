@@ -82,6 +82,7 @@ a:hover .arrow { transform: translate(3px, -2px); }
 .project-summary .project-actions .pill-link { margin-top: 0; }
 .product-link { min-height: 52px; gap: 14px; padding: 15px 23px; border-color: var(--purple); background: var(--purple); color: #fff; font-size: 16px; font-weight: 650; }
 .product-link:hover { border-color: #442da4; background: #442da4; color: #fff; }
+.hirenao-project .project-actions .pill-link { width: 180px; min-height: 48px; justify-content: space-between; gap: 14px; padding: 12px 20px; font-size: 14px; }
 .project-image { margin: 0 clamp(24px, 4.3vw, 58px); }
 .screenshot-link { display: block; position: relative; text-decoration: none; border-radius: 7px; overflow: hidden; }
 .screenshot-link img { width: 100%; }
