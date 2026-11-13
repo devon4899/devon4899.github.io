@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f7f7f2">
+<title>Tap Track · Devon Cheng</title>
+<meta name="description" content="A native iOS nutrition counter with quick daily logging, configurable goals, and weekly and monthly views of your records.">
+<meta property="og:title" content="Tap Track · Devon Cheng">
+<meta property="og:description" content="A native iOS nutrition counter with quick daily logging, configurable goals, and weekly and monthly views of your records.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://devon4899.github.io/projects/tap-track/">
+<link rel="canonical" href="https://devon4899.github.io/projects/tap-track/">
+<meta property="og:image" content="https://devon4899.github.io/assets/images/portfolio-share.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1198">
+<meta property="og:image:height" content="464">
+<meta property="og:image:alt" content="Devon Cheng Portfolio in black and violet type on a cream background">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://devon4899.github.io/assets/images/portfolio-share.png">
+<meta name="twitter:image:alt" content="Devon Cheng Portfolio in black and violet type on a cream background">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../assets/site.css?v=20261112">
+<script src="../../assets/site.js" defer></script>
+</head>
+<body class="taptrack-case">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><div class="header-inner wrap">
+<a class="wordmark" href="../../" aria-label="Devon Cheng, home"><span class="monogram" aria-hidden="true">d</span>Devon Cheng</a>
+<nav class="main-nav" aria-label="Main navigation">
+<a href="../../#work">Work</a><a href="../../#about">About</a>
+<a href="../../assets/documents/devon-cheng-resume.pdf" download>Résumé <span aria-hidden="true">↓</span></a>
+<a class="nav-contact" href="mailto:yic159@ucsd.edu">Contact <span class="arrow" aria-hidden="true">↗</span></a>
+</nav></div></header><main id="main"><section class="case-intro wrap" aria-labelledby="case-title">
+<a class="back-link" href="../../#work">← All work</a><p class="eyebrow case-kicker">03 / Tap Track <span class="status-tag">iOS · PRE-RELEASE</span></p>
+<h1 class="case-title" id="case-title">A little tap.<br>A clearer picture.</h1><p class="case-deck">A native iOS nutrition counter with quick daily logging, configurable goals, and weekly and monthly views of your records.</p>
+<dl class="case-meta"><div><dt>Role</dt><dd>Product design · Development</dd></div><div><dt>Platform</dt><dd>iOS · SwiftUI · Charts</dd></div><div><dt>Status</dt><dd>iOS · PRE-RELEASE</dd></div><div><dt>Project</dt><dd><a class="meta-link" href="https://github.com/devon4899/TapTrack">GitHub ↗</a></dd></div></dl>
+<figure class="case-hero frpg-hero taptrack-hero"><div class="frpg-hero-phones" role="region" aria-label="Daily, weekly, and monthly Tap Track screenshots. Scroll to explore." tabindex="0"><a class="screenshot-link" href="../../assets/images/taptrack-dashboard.png" data-lightbox data-caption="Daily logging · Real app capture · Synthetic demonstration data · November 12, 2026" aria-label="Enlarge screenshot: Tap Track daily dashboard with calorie, macro, and salt totals and a large increment button."><img src="../../assets/images/taptrack-dashboard.png" alt="Tap Track daily dashboard with calorie, macro, and salt totals and a large increment button." width="1206" height="2622" loading="eager" decoding="async"><span class="zoom-hint" aria-hidden="true"><span>View screen</span> ↗</span></a><a class="screenshot-link" href="../../assets/images/taptrack-weekly-history.png" data-lightbox data-caption="Weekly history · Real app capture · Synthetic demonstration data · November 12, 2026" aria-label="Enlarge screenshot: Tap Track weekly calorie and protein bar charts with target lines."><img src="../../assets/images/taptrack-weekly-history.png" alt="Tap Track weekly calorie and protein bar charts with target lines." width="1206" height="2622" loading="eager" decoding="async"><span class="zoom-hint" aria-hidden="true"><span>View screen</span> ↗</span></a><a class="screenshot-link" href="../../assets/images/taptrack-monthly-history.png" data-lightbox data-caption="Monthly history · Real app capture · Synthetic demonstration data · November 12, 2026" aria-label="Enlarge screenshot: Tap Track monthly consistency calendar and nutrient breakdown."><img src="../../assets/images/taptrack-monthly-history.png" alt="Tap Track monthly consistency calendar and nutrient breakdown." width="1206" height="2622" loading="eager" decoding="async"><span class="zoom-hint" aria-hidden="true"><span>View screen</span> ↗</span></a></div><figcaption><span class="swipe-hint">Swipe to explore →</span><span>Today · Week · Month</span><span>Real app · Demo data · Nov 12, 2026</span></figcaption></figure></section>
+<div class="case-layout wrap"><nav class="case-nav" aria-label="Tap Track project sections"><p class="eyebrow">Tap Track</p><a href="#idea">Idea</a><a href="#decisions">Product decisions</a><a href="#build">Current build</a></nav><div class="story"><section class="story-section compact-story" id="idea"><p class="eyebrow">01 / Idea</p><h2>Make the everyday entry small.</h2><p>Tap Track is a native iOS nutrition counter designed around quick, direct entry. Choose a nutrient, choose an increment, and tap to build an entry before logging it.</p><p>Daily totals and longer-term history sit in the same app, so a small action can feed a useful picture of the week and month.</p></section><section class="story-section compact-story" id="decisions"><p class="eyebrow">02 / Product decisions</p><h2>A short path from a number to a record.</h2><div class="short-decisions"><article><h3>Make the main action obvious</h3><p>A large increment control supports calorie and nutrient logging. Totals can also be edited directly.</p></article><article><h3>Let the user set the context</h3><p>Guided setup, configurable goals, nutrient selection, and themes personalize the tracker.</p></article><article><h3>Show history at two scales</h3><p>Weekly charts compare daily entries with target lines. The monthly calendar and breakdown show consistency across dates.</p></article></div></section><section class="story-section compact-story" id="build"><p class="eyebrow">03 / Current build</p><h2>A small, self-contained iOS app.</h2><p>Built with SwiftUI, Swift Charts, and UIKit, using AppStorage and UserDefaults for local records. The project retains its original CalorieCount folder name; the app’s product name is TapTrack.</p><p>The current source and test targets compiled successfully on November 12, 2026. The gallery was captured from that build using synthetic demonstration history. This is a pre-release project, with its current <a href="https://github.com/devon4899/TapTrack">GitHub showcase</a> and development source maintained separately.</p></section></div></div>
+<a class="more-project wrap" href="../last-tide/"><div><p class="eyebrow">NEXT PROJECT</p><h2>Last Tide</h2></div><span class="arrow" aria-hidden="true">↗</span></a></main><footer class="contact wrap" id="contact">
+<div class="contact-main"><div><p class="eyebrow">CONTACT</p><h2>Get in touch.</h2><p>Open to product management and product builder roles.</p></div>
+<a class="pill-link" href="mailto:yic159@ucsd.edu">Email me <span class="arrow" aria-hidden="true">↗</span></a></div>
+<div class="footer-bottom"><p>Devon Cheng · California</p><div class="social-links">
+<a href="https://www.linkedin.com/in/devoncheng3/">LinkedIn <span aria-hidden="true">↗</span></a>
+<a href="https://github.com/devon4899">GitHub <span aria-hidden="true">↗</span></a>
+<a href="../../assets/documents/devon-cheng-resume.pdf" download>Résumé <span aria-hidden="true">↓</span></a>
+<a href="mailto:yic159@ucsd.edu">Email <span aria-hidden="true">↗</span></a>
+</div></div></footer>
+<dialog class="lightbox" aria-label="Enlarged product screenshot" aria-describedby="lightbox-caption">
+<div class="lightbox-inner">
+<div class="lightbox-top"><p class="lightbox-count" aria-live="polite"></p><div class="lightbox-tools"><a data-original href="#" target="_blank" rel="noopener">Full size ↗</a><button type="button" data-zoom aria-pressed="false">Zoom in</button><button type="button" data-close aria-label="Close screenshot">×</button></div></div>
+<div class="lightbox-image-wrap" tabindex="0" role="region" aria-label="Screenshot. Scroll to inspect when zoomed."><img class="lightbox-image" alt=""></div>
+<div class="lightbox-bottom"><p class="lightbox-caption" id="lightbox-caption" aria-live="polite"></p><div class="lightbox-controls"><button type="button" data-prev aria-label="Previous screenshot">←</button><button type="button" data-next aria-label="Next screenshot">→</button></div></div>
+</div></dialog>
+</body></html>

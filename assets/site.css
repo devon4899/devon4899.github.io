@@ -396,3 +396,19 @@ details a { text-decoration-color: #9d91c0; }
   .split-stage .screenshot-link { position: relative; inset: auto; width: 100%; flex: 0 0 100%; clip-path: none; scroll-snap-align: start; }
   .split-stage .screenshot-link img { width: 100%; height: auto; object-fit: contain; }
 }
+
+/* Native app and Roblox projects, using the portfolio's existing grid. */
+.taptrack-project { background: #f0e8e1; }
+.taptrack-project .project-summary p { color: #5c4c48; }
+.taptrack-case { --purple: #934c48; --lavender: #f0e8e1; }
+.taptrack-hero { background: #f0e8e1; }
+.last-tide-project { background: #e2e9e7; }
+.last-tide-project .project-summary p { color: #455b57; }
+.last-tide-case { --purple: #315b57; --lavender: #e2e9e7; }
+.last-tide-hero { background: #e2e9e7; padding: clamp(16px, 2.8vw, 36px); }
+.last-tide-hero figcaption { color: #455b57; }
+.last-tide-project .project-image { margin-bottom: 0; }
+.project-name, .case-kicker { flex-wrap: wrap; }
+.scene-grid { display: grid; gap: 24px; }
+.scene-grid figure { margin: 0; }
+.scene-grid figcaption { margin-top: 12px; color: var(--muted); font-size: 13px; line-height: 1.6; }
